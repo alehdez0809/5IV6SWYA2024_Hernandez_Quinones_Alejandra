@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cesar</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="div1">
+        <h1 >Cifrado Cesar con JS</h1>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <br>
+                    <label for="texto" class="text">Ingrese el texto a cifrar:</label>
+                    <br><br>
+                    <textarea type="text" name="texto" id="texto" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <br>
+                    <label for="desplazamiento" class="text">Desplazamiento:</label>
+                    <br><br>
+                    <input type="range" min="1" max="25" step="1" value="1" name="desplazamiento" id="desplazamiento" class="range">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <br>
+                    <label for="cifrado" class="text">Texto cifrado:</label>
+                    <br><br>
+                    <textarea type="text" name="cifrado" id="cifrado" class="form-control" disabled="disabled"></textarea>
+                </div>
+            </div>
+            <br>
+            <hr>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <br>
+                    <label for="texto" class="text">Ingrese el texto a descifrar:</label>
+                    <br><br>
+                    <textarea type="text" name="textodes" id="textodes" class="form-control"></textarea>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <br>
+                    <label for="desplazamiento" class="text">Desplazamiento:</label>
+                    <br><br>
+                    <input type="range" min="1" max="25" step="1" value="1" name="desplazamientodes" id="desplazamientodes" class="range">
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="form-group">
+                    <br>
+                    <label for="cifrado" class="text">Texto descifrado:</label>
+                    <br><br>
+                    <textarea type="text" name="descifrado" id="descifrado" class="form-control" disabled="disabled"></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/cesar.js"></script>
+</body>
+</html>
